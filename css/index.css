@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Inter", sans-serif;
 }
@@ -76,13 +79,9 @@ body {
   display: flex;
   align-items: center;
 }
-.social-item {
-}
 .social-link {
   display: inline-block;
   padding: 8px;
-}
-.social-logo {
 }
 .cv-download {
   padding: 7px 8px;
@@ -98,8 +97,6 @@ body {
 }
 .cv-icon {
   margin-right: 4px;
-}
-.cv-text {
 }
 
 .section-heading {
@@ -122,8 +119,6 @@ body {
 .card-text-wrapper {
   padding: 16px;
 }
-.card-image {
-}
 .card-title {
   font-weight: 700;
   font-size: 24px;
@@ -140,8 +135,6 @@ body {
   align-items: center;
   margin-top: 8px;
   margin-bottom: 16px;
-}
-.tags-item {
 }
 .tag {
   padding: 4px 8px;
@@ -179,5 +172,129 @@ body {
 .card-button-icon {
   margin-right: 4px;
 }
-.card-button-text {
+
+.developer {
+  padding: 80px 0 40px;
+  display: flex;
+  align-items: center;
+}
+
+.developer-about {
+  margin-left: 55px;
+}
+
+.developer-photo {
+  width: 360px;
+  height: 440px;
+  /* flex-shrink: 0; */
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.developer-hello {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: #211b12;
+}
+
+.developer-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #bf7506;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.developer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
+}
+
+.motto {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #dd9c3c;
+  margin: 16px 0;
+}
+
+.developer-sign {
+  max-width: 200px;
+}
+
+.skills {
+  padding: 20px 0;
+}
+
+.skills-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: #bf7506;
+}
+
+.feedback {
+  padding: 80px 0 160px;
+}
+
+.input-group {
+  position: relative;
+  padding-top: 9px;
+  margin-bottom: 24px;
+}
+
+.input-label {
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #83807c;
+  padding: 0 8px;
+  background-color: #fff;
+  top: 0px;
+  left: 16px;
+}
+
+.input {
+  border: 3px solid #e0dedc;
+  border-radius: 4px;
+  width: 435px;
+  height: 56px;
+}
+
+.textarea {
+  min-height: 140px;
+}
+
+.form-container {
+  max-width: 435px;
+  margin: auto;
+}
+
+.submit-button {
+  padding: 7px 8px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
+  border: none;
+  border-bottom: 2px solid #bf7506;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: right;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
 }
